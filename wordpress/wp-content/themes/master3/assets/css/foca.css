@@ -20,6 +20,14 @@ body{
     /* color al pasar el raton hover */
 }
 
+.dropdown-menu{
+    background-color: pink;
+}
+
+.dropdown-divider{
+    border: purple solid 1px;
+}
+
 
 
 
