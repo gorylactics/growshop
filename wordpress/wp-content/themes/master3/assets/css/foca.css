@@ -1,0 +1,14 @@
+body{
+    background-color: red;
+}
+.logo{
+    width: 20vw;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+p{
+    color:orange;
+}
