@@ -5,13 +5,9 @@ body{
     width: 20vw;
 }
 
-.nav-link{
-  font-size: 2rem;
-  color: blueviolet;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: red;
+    font-size: 2rem;
     /* color de la fuente */
 }
 
