@@ -19,9 +19,12 @@ function dl_enqueue_style() {
 
 	/* Register Scripts */
 	wp_register_style('bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css', null, $theme_data->get('4.2'));
-
+	wp_register_style('foca', get_theme_file_uri( '/assets/css/foca.css'), null, null, null);
+	wp_register_style( 'fonts', 'https://fonts.googleapis.com/css?family=Shadows+Into+Light,Abril+Fatface|Bad+Script|Poiret+One|Quicksand', null, null, null );
 	
 	wp_enqueue_style( 'bootstrap_css' );
+	wp_enqueue_style( 'foca' );
+	wp_enqueue_style( 'fonts' );
 
 }
 

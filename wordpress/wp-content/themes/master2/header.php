@@ -9,8 +9,9 @@
 </head>
 <body>
   
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand" href="holanda">Navbar</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home">
+      <img src="<?php bloginfo('template_url')?>/assets/images/logos/foca_sin_fondo.png" alt="logo" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"               
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

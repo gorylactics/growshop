@@ -1,0 +1,12 @@
+body{
+    background-color: orange;
+}
+
+.logo{
+    width: 20vh;
+	
+}
+
+.dropdown-item{
+    font-size: 300px;
+}
