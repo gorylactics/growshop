@@ -1,12 +1,16 @@
 body{
-    background-color: red;
+    background-color:silver;
 }
 .logo{
     width: 20vw;
 }
 
+.barra{
+    background-color: #9FF781;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color: red;
+    color: #F2F2F2;
     font-size: 2rem;
     /* color de la fuente */
 }
@@ -16,7 +20,7 @@ body{
     /* color de la seleccion */
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: burlywood;
+    color: grey;
     /* color al pasar el raton hover */
 }
 
@@ -27,7 +31,3 @@ body{
 .dropdown-divider{
     border: purple solid 1px;
 }
-
-
-
-
