@@ -10,7 +10,10 @@
                     <a href="<?php the_permalink() ?>">
                     <h2><?php the_title() ?></h2>
                     </a>
-                    <img src="ejemplo.jpeg" alt="" class="img-fluid mb-3">
+                    <?php if ( has_post_thumbnail() ) {
+                        the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3'));
+                        }?>
+                    <!-- <img src="ejemplo.jpeg" alt="" class="img-fluid mb-3"> -->
                     <p><?php the_excerpt() ?></p>
                     <p class="small mb-0">fecha: <?php the_time('F j, Y'); ?></p>
                     <p class="small mb-0">autor: adrian</p>
