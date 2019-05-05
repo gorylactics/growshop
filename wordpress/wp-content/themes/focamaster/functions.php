@@ -3,8 +3,10 @@
     function fg_enqueue_style() { 
     $theme_data = wp_get_theme();
 
-wp_register_style('bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css', null, $theme_data->get('4.2'));
+wp_register_style('bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', null, $theme_data->get('4.3.1'));
 wp_register_style('main', get_parent_theme_file_uri('/css/main.css'), null, null);
+
+
 
 wp_enqueue_style( 'bootstrap_css' );
 wp_enqueue_style( 'main' ); }
