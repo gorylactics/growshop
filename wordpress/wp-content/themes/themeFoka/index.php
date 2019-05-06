@@ -30,19 +30,11 @@
     
     <!-- /entradas -->
     <!-- paginacion -->
-    <div class="container">
+    <!-- <div class="container"> -->
     <div class="card-body">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination">
-                            <li class="page-item active"><a class="page-link" href="#">anterior</a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">siguiente</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                </div>
+        <?php get_template_part('template-parts/content', 'paginacion'); ?>
+    </div>
+                <!-- </div> -->
                 <!-- /paginacion -->
     <!-- / contenido -->
 
