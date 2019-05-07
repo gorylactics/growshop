@@ -5,7 +5,7 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-9">
                 <div class="card-body">
                     <a href="<?php the_permalink() ?>">
                     <h2><?php the_title() ?></h2>
@@ -37,5 +37,14 @@
                 <!-- </div> -->
                 <!-- /paginacion -->
     <!-- / contenido -->
+
+    <!-- aside -->
+    <div class="col-lg-3">
+        <div class="card-body">
+            <h4>publicidad</h4><hr>
+            <img src="" alt="">
+        </div>
+    </div>
+    <!-- /aside -->
 
    <?php get_footer() ?>
