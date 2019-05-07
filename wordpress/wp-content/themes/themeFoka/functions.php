@@ -28,7 +28,7 @@
             'description' => __('arma el widget'),
             'before_widget' => '<div class="card-body">',
             'after_widget' => '</div>',
-            'before_title' => '<h4>publicidad</h4>',
+            'before_title' => '<h4>',
             'after_title' => '</h4><hr>'
         ));
     } 
