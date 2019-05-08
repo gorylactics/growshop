@@ -17,7 +17,7 @@
                     <?php the_content() ?>
                 </p>
                     <p class="small mb-0">fecha: <?php the_time('F j, Y'); ?></p>
-                    <p class="small mb-0">autor: adrian</p>
+                    <p class="small mb-0">autor: <?php the_author()?></p>
                     <p class="small mb-0">categoria: <?php the_category('/'); ?>    
                     <p class="small mb-0">etiquetas: <?php the_tags('', '/', ''); ?><br>
                 </div>

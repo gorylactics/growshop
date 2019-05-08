@@ -1,4 +1,8 @@
 <?php
+
+    // Register Custom Navigation Walker
+    require_once get_template_directory() . '/template-parts/navbar.php';
+
     function themeFoka_agregar_css_js(){
         
         wp_register_style('style' ,get_stylesheet_uri());
@@ -33,4 +37,17 @@
         ));
     } 
         add_action('widgets_init', 'themeFoka_widgets');
+    
+    
+
+
+        function themeFoka_register_my_menus() {
+            register_nav_menus(
+              array(
+                'menu-principal' => __( 'Menu Principal GROW' ),
+                
+               )
+             );
+           }
+           add_action( 'init', 'themeFoka_register_my_menus' );
     ?>
