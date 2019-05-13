@@ -11,7 +11,7 @@
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
+        <section class="container">
             <a class="navbar-brand" href="#">logo corporativo</a>
             <h2 class=" text-center">foca growshop</h2>  
             <button 
@@ -46,7 +46,7 @@
 			'walker'            => new WP_Bootstrap_Navwalker(),
 		) );
 		?>
-        </div>
+        </section>
     </nav>
     <!--  /navbar -->
 
@@ -69,8 +69,7 @@
     </div> -->
     <!-- /galeria de destacados -->
 
-    <div class="container">
-        <h2 class="my-5 text-center">MI BLOG PERSONAL
-        </h2>
-    </div>
+    <section class="container">
+        <h2 class="my-5 text-center">MI BLOG PERSONAL</h2>
+    </section>
   

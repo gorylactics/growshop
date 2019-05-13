@@ -50,4 +50,10 @@
              );
            }
            add_action( 'init', 'themeFoka_register_my_menus' );
-    ?>
+    
+
+           function ejr_limite_extracto ($longitud) {
+            return 10;
+        }
+        add_filter ('excerpt_length', 'ejr_limite_extracto', 999);
+?>
