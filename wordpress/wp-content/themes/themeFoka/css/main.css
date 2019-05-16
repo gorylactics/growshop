@@ -2,8 +2,15 @@ body{
     margin-left: 0;
     margin-right: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: green;
 }
+
+.tamanodelogo{
+    
+    width: 250px;
+}
+
+
 
 .row{
     margin-left: 0;

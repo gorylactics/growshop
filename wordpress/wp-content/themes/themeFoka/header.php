@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,12 +8,15 @@
     <?php wp_head(); ?>
   </head>
 
-  <body>
+  <body <?php body_class(); ?>>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <section class="container">
-            <a class="navbar-brand" href="#">logo corporativo</a>
-            <h2 class=" text-center">foca growshop</h2>  
+            <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
+            <img src="<?php bloginfo('template_url')?>/foca_sin_fondo.png" alt="logo" class="tamanodelogo" ></a>
+	
+            </a>
+            <h2>foca growshop</h2>  
             <button 
                 class="navbar-toggler" 
                 type="button" 
