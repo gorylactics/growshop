@@ -53,7 +53,7 @@
     
 
            function ejr_limite_extracto ($longitud) {
-            return 10;
+            return 13;
         }
         add_filter ('excerpt_length', 'ejr_limite_extracto', 999);
 ?>
