@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <section class="container">
             <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-            <img src="<?php bloginfo('template_url')?>/foca_sin_fondo.png" alt="logo" class="tamanodelogo" ></a>
+            <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="tamanodelogo" ></a>
 	
             </a>
             <h2>foca growshop</h2>  
