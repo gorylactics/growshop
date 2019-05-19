@@ -1,9 +1,9 @@
-<?php get_header(); ?>
+<?php get_header() ?>
 
 <div class="row">
-    <div class="col-lg-9">
+    <div class="col-lg-12">
 <!-- entradas -->
-        <?php if ( have_posts() ) : while ( have_posts('automaticas') ) : the_post(); ?>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="card-body entradas col-lg-4">
                 <a href="<?php the_permalink() ?>">
                     <h2>
@@ -22,17 +22,5 @@
             </a>
         </div>
 <?php endwhile; endif; ?>
-<!-- /entradas -->
 
-<!-- paginacion -->
-    <div class="card-body entradas col-lg-12">
-        <?php get_template_part('template-parts/content', 'paginacion'); ?>
-    </div>  
-<!-- /paginacion -->
-
-</div>
-<!-- linea 33 div de cierre index.php -->
-
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+<?php get_footer() ?>
