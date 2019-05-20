@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-lg-9">
 <!-- entradas -->
-        <?php if ( have_posts() ) : while ( have_posts('automaticas') ) : the_post(); ?>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="card-body entradas col-lg-4">
                 <a href="<?php the_permalink() ?>">
                     <h2>
