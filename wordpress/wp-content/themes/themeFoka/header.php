@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
   </head>
 
-  <body <?php body_class(); ?>>
+  <body <?php body_class(); ?> class="col-lg-4">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <section class="container">
@@ -16,9 +16,9 @@
             <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="tamanodelogo" ></a>
 	
             </a>
-            <h2>foca growshop</h2>  
+            <h2 class="col-lg-4" style="margin-left: 15%;">foca growshop</h2>  
             <button 
-                class="navbar-toggler" 
+                class="navbar-toggler col-lg-4" 
                 type="button" 
                 data-toggle="collapse" 
                 data-target="#navbarSupportedContent" 
