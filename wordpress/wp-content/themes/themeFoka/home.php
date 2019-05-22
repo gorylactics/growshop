@@ -1,5 +1,4 @@
-<?php get_header(); ?>
-
+<?php get_header() ?>
 <div class="row">
     <div class="col-lg-9">
 <!-- entradas -->
@@ -31,8 +30,5 @@
 <!-- /paginacion -->
 
 </div>
-<!-- linea 33 div de cierre index.php -->
-
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+<?php get_sidebar() ?>
+<?php get_footer() ?>

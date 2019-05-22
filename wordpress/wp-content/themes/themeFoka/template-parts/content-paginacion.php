@@ -29,7 +29,7 @@ function bootstrap_pagination( \WP_Query $wp_query = null, $echo = true ) {
 	$pages = paginate_links( [
 			'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
 			'format'       => '?paged=%#%',
-			'current'      => max( 1, get_query_var( 'paged' ) ),
+			'current'      => max( 15, get_query_var( 'paged' ) ),
 			'total'        => $wp_query->max_num_pages,
 			'type'         => 'array',
 			'show_all'     => false,

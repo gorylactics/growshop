@@ -1,1 +1,3 @@
-<h1>prueba de entrada</h1>
+<?php get_header() ?>
+    
+<?php get_footer() ?>

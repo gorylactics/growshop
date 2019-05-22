@@ -16,11 +16,14 @@ body{
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+    
 }
 
 .card-body{
-    background-color: yellowgreen;
+    
+    background-color:purple;
     margin:0px;
+    border-radius: 25px 25px 25px 25px;
     
 }
 
@@ -41,5 +44,6 @@ body{
 }
 
 .entradas{
+   
     float: left;
 }
