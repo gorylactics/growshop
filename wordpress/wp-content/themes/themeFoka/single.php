@@ -21,9 +21,9 @@
 
 
                     <a href="javascript:history.back()"> 
-                    <input type="button" value=”Volver  onclick=”history.back(-1)” /></a>
+                    <input type="button" value=”Volver  onclick=”history.back(-1)” class="btn btn-primary btn-block"/></a>
 
-            </p>
+            
 
 
                 </div>
