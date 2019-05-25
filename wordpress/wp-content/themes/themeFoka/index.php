@@ -20,6 +20,7 @@
             <?php the_excerpt()?>
             <a href="<?php the_permalink()?>" class="btn btn-primary btn-block">ir al articulo
             </a>
+            <hr>
         </div>
 <?php endwhile; endif; ?>
 <!-- /entradas -->
