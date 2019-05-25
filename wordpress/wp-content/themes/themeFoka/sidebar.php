@@ -6,9 +6,3 @@
             <?php endif; ?>
 </div>
 
-    <!-- /aside -->
-
-    <!-- <div class="card-body">
-            <h4>publicidad</h4><hr>
-            <img src="" alt="">
-        </div> -->

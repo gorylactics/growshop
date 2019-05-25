@@ -1,0 +1,60 @@
+crear todos los-pages y agregar loop para cada  pagina , crear todos los custom post type , crear el home o front-page  para sacar el index, ordenar el loop de la pgaina principal y que esten las tres opciones del menu principal , y en cada una un boton para ir a la pagina central especializada , y un boton para ir a la pagina especifica mostrando 15 publicaciones mas paginacion, especializar tamaños de imagenes  y comenzar con el css , agregar fuentes y colores crear footer solo con iconos
+
+
+
+
+comenzar con las subs para la creacion de loop especifico 15 en las principales y 6 en las compartidas  separadas por div o probar el llamado al array
+
+hacer entradas de prueba en los CPTs para cargar en la web que corresponda
+
+<ul>
+<?php
+        $arg = array(
+            'post_type'     => 'custom-post-name',
+            'category_name' => '',
+            'post_per_page' => 12,
+            'offset'        => 0,
+            'post__not_in'  => array($post->ID),
+            'paged'         => $paged
+        );
+
+        $get_arg = new WP_Query( $arg);
+
+        while( $get_arg->have_post() ){
+            $get_arg->the_post();
+        ?>
+        <?php } wp_reset_postdata();
+        ?>  
+
+        <li>
+        <?php the_title() ?></li>
+</ul>
+
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    
+        <div class="row">
+            
+                <div class="card-body">
+                    <h2>
+                        <?php the_title() ?>
+                    </h2>
+                <?php if ( has_post_thumbnail() ) {
+                    the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3'));
+                    }?>
+                <p>
+                    <?php the_content() ?>
+                </p>
+                    <p class="small mb-0">fecha: <?php the_time('F j, Y'); ?></p>
+                    <p class="small mb-0">autor: <?php the_author()?></p>
+                    <p class="small mb-0">categoria: <?php the_category('/'); ?>    
+                    <p class="small mb-0">etiquetas: <?php the_tags('', '/', ''); ?><br>
+                </div>
+            </div>
+       
+    
+<?php endwhile; endif; ?>
+</div>

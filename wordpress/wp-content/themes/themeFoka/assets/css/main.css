@@ -1,8 +1,6 @@
 body{
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    background-color: green;
+ 
+    background-color: #D3D3D3;
 }
 
 .tamanodelogo{
@@ -16,14 +14,18 @@ body{
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    
     
 }
 
 .card-body{
     
     background-color:purple;
-    margin:0px;
+    
     border-radius: 25px 25px 25px 25px;
+    
     
 }
 
@@ -41,6 +43,7 @@ body{
     margin-right: 0;
     padding: 0;
     position: relative;
+    box-sizing: border-box;
 }
 
 .entradas{

@@ -8,18 +8,18 @@
     <?php wp_head(); ?>
   </head>
 
-  <body <?php body_class(); ?> class="col-lg-4">
+  <body <?php body_class(); ?>>
    
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1A1A1D ;">
         <section class="container">
             <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-            <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="tamanodelogo" ></a>
-	
-            </a>
-            <h2 class="col-lg-4" style="margin-left: 15%;">foca growshop</h2>  
+              <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="tamanodelogo" ></a>
+
+            <h2  style="margin-left: 15%;">foca growshop</h2>  
+            
             <button 
-                class="navbar-toggler col-lg-4" 
+                class="navbar-toggler " 
                 type="button" 
                 data-toggle="collapse" 
                 data-target="#navbarSupportedContent" 
@@ -28,20 +28,21 @@
                 aria-label="Toggle navigation">
 
             <span class="navbar-toggler-icon"></span>
+            
             </button>
          
-            <?php
-		wp_nav_menu( array(
-			'theme_location'    => 'menu-principal',
-			'depth'             => 2,
-			'container'         => 'div',
-			'container_class'   => 'collapse navbar-collapse',
-			'container_id'      => 'navbarSupportedContent',
-			'menu_class'        => 'nav navbar-nav ml-auto',
-			'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-			'walker'            => new WP_Bootstrap_Navwalker(),
-		) );
-		?>
+    <?php
+      wp_nav_menu( array(
+        'theme_location'    => 'menu-principal',
+        'depth'             => 5,
+        'container'         => 'div',
+        'container_class'   => 'collapse navbar-collapse',
+        'container_id'      => 'navbarSupportedContent',
+        'menu_class'        => 'nav navbar-nav ml-auto',
+        'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+        'walker'            => new WP_Bootstrap_Navwalker(),
+      ) );
+      ?>
         </section>
     </nav>
     <!--  /navbar -->
