@@ -1,4 +1,7 @@
 <?php get_header() ?>
+
+<h1>holaaaa
+</h1>
 <div class="row">
     <div class="col-lg-9">
 <!-- entradas -->

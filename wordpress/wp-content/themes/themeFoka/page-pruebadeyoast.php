@@ -1,3 +1,5 @@
 <?php get_header() ?>
-    <h1>holaaaaaa</h1>
+
+<h2>holaaaa</h2>
+
 <?php get_footer() ?>
