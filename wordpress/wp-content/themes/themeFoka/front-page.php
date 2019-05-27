@@ -13,7 +13,7 @@
 <?php
 
 // The Query
-$the_query = new WP_Query( array( 'posts_per_page' => 5, 'offset' => 3 , 'category_name' => 'automaticas') ); 
+$the_query = new WP_Query( array( 'posts_per_page' => 10, 'offset' => 1, 'category_name' => 'automaticas')  ); 
 
 // The Loop
 if ( $the_query->have_posts() ) : ?>
@@ -22,17 +22,24 @@ if ( $the_query->have_posts() ) : ?>
 		$the_query->the_post(); ?>
 		
        
-            <div class="card-body entradas">
-                <hr>
-                <ul>
-                    <h2>
-                    <p class="small mb-0">fecha: <?php the_time('F j, Y'); ?></p>
-                    <p class="small mb-0">autor: <?php the_author()?></p>
-                    <p class="small mb-0">categoria: <?php the_category('/'); ?>    
-                    <p class="small mb-0">etiquetas: <?php the_tags('', '/', ''); ?><br>
-                </div>
+        <div class="card-body entradas col-lg-4">
+                <a href="<?php the_permalink() ?>">
+                <?php if ( has_post_thumbnail() ) {
+            the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3'));}?>  
+                        
+                    
+                </a>
+                
+        
+        
+        
+            
+            <hr>
+        </div>
 	    <?php endwhile ?>
 	</ul>
+
+    
 	
     <?php wp_reset_postdata();
         else : ?>
