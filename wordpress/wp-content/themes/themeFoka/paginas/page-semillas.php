@@ -13,7 +13,7 @@
 <?php
 
 // The Query
-$the_query = new WP_Query( array( 'posts_per_page' => 6, 'offset' => 3 , 'category_name' => 'automaticas') ); 
+$the_query = new WP_Query( array( 'posts_per_page' => 2, 'offset' => 3 , 'category_name' => 'automaticas') ); 
 
 // The Loop
 if ( $the_query->have_posts() ) : ?>

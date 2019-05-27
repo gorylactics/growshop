@@ -50,6 +50,6 @@
 
 
     <section class="container">
-        <h2 class="my-5 text-center">MI BLOG PERSONAL</h2>
+        <h2 class="my-5 text-center"><?php echo category_description(); ?></h2>
     </section>
   

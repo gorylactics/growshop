@@ -13,14 +13,15 @@
 <?php
 
 // The Query
-$the_query = new WP_Query( array( 'posts_per_page' => 6, 'offset' => 3 , 'category_name' => 'automaticas') ); 
+$the_query = new WP_Query( array( 'posts_per_page' => 5, 'offset' => 3 , 'category_name' => 'automaticas') ); 
 
 // The Loop
 if ( $the_query->have_posts() ) : ?>
 	<ul>
 	<?php while ( $the_query->have_posts() ) :
-        $the_query->the_post(); ?>
-        
+		$the_query->the_post(); ?>
+		
+       
             <div class="card-body entradas">
                 <hr>
                 <ul>
@@ -40,6 +41,7 @@ if ( $the_query->have_posts() ) : ?>
 
     <div></div>
 </div>
+
 
 
 

@@ -1,8 +1,6 @@
 <?php get_header() ?>
-<div id="sticky-snip">
-    <h2>
-<?php the_category(); ?></h2>
-</div>
+<h1 class="bg-dark btn btn-block"><?php the_category('/'); ?></h1>
+
 <div class="row">
     <div class="col-lg-9">
 <!-- entradas -->
@@ -26,6 +24,12 @@
             <hr>
         </div>
 <?php endwhile; endif; ?>
+
+<div class="card-body entradas col-lg-12">
+        <?php get_template_part('template-parts/content', 'paginacion'); ?>
+    </div> 
 <!-- /entradas -->
 </div>
+
+<?php get_sidebar() ?>
 <?php get_footer() ?>
