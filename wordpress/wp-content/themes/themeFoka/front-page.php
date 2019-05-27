@@ -13,7 +13,8 @@
 <?php
 
 // The Query
-$the_query = new WP_Query( array( 'posts_per_page' => 10, 'offset' => 1, 'category_name' => 'automaticas')  ); 
+$the_query = new WP_Query( array( 'posts_per_page' => 10, 'offset' => 1, 'category_name' => 'automaticas')); 
+
 
 // The Loop
 if ( $the_query->have_posts() ) : ?>
@@ -23,6 +24,7 @@ if ( $the_query->have_posts() ) : ?>
 		
        
         <div class="card-body entradas col-lg-4">
+            <?php the_category() ?>
                 <a href="<?php the_permalink() ?>">
                 <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3'));}?>  
