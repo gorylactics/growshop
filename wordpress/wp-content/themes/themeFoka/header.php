@@ -11,12 +11,13 @@
   <body <?php body_class(); ?>>
    
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1A1A1D ;">
+    <nav class="navbar navbar-expand-lg navbar-dark" >
         <section class="container">
             <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-              <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="tamanodelogo" ></a>
+              <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="logo" >
+            </a>
 
-            <h2  style="margin-left: 15%;">foca growshop</h2>  
+            <h2  style="margin-left: 15%;">foca growshop </h2>
             
             <button 
                 class="navbar-toggler " 

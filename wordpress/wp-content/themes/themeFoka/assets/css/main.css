@@ -2,8 +2,10 @@ body{
  
     background-color: #D3D3D3;
 }
-
-.tamanodelogo{
+.navbar{
+  background-color: #1A1A1D ;
+}
+.logo{
     
     width: 250px;
 }
