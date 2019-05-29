@@ -1,17 +1,31 @@
 body{
- 
+
     background-color: #D3D3D3;
 }
+
 .navbar{
-  background-color: #1A1A1D ;
+
+    background-color: #1A1A1D ;
 }
+
 .logo{
     
-    width: 250px;
+    width: 15vw;
+}
+.menu-item{
+    color: yellowgreen;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#text{
+    color: yellowgreen;
 }
 
 
-
+}.dropdown-toggle-nav-link{
+    color: yellowgreen;}
 .row{
     margin-left: 0;
     margin-right: 0;
