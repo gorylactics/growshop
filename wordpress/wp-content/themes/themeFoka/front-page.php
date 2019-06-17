@@ -3,8 +3,9 @@
 
 <div class="row">
     <div class="col-lg-9">
-        <h1>holaaaa</h1>
+        
             <div>
+            
             <?php 
             // The Query
             $the_query = new WP_Query( array( 'posts_per_page' => 1,  'category_name' => 'automaticas')); 
@@ -14,8 +15,9 @@
                 
                 <?php while ( $the_query->have_posts() ) :
                     $the_query->the_post(); ?>
+                    <h1 class="destacado jumbotron"><p>destacado</p> <?php the_title() ?></h1>
                     <div class=" card card-body entradas col-lg-12">
-                        <?php the_category() ?>
+                        <?php the_title() ?>
                         <a href="<?php the_permalink() ?>">
                             <?php if ( has_post_thumbnail() ) 
                                 {the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3'));
