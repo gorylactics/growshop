@@ -7,14 +7,14 @@
             <div>
             <?php 
             // The Query
-            $the_query = new WP_Query( array( 'posts_per_page' => 10,  'category_name' => 'automaticas')); 
+            $the_query = new WP_Query( array( 'posts_per_page' => 1,  'category_name' => 'automaticas')); 
 
             // The Loop
             if ( $the_query->have_posts() ) : ?>
                 
                 <?php while ( $the_query->have_posts() ) :
                     $the_query->the_post(); ?>
-                    <div class="card-body entradas col-lg-4">
+                    <div class=" card card-body entradas col-lg-12">
                         <?php the_category() ?>
                         <a href="<?php the_permalink() ?>">
                             <?php if ( has_post_thumbnail() ) 
@@ -31,17 +31,18 @@
                 <?php endif; ?>
                 </div>
 <div>
+<hr>
 
                 <?php 
             // The Query
-            $the_query = new WP_Query( array( 'posts_per_page' => 10,  'category_name' => 'bongs,Feminizadas')); 
+            $the_query = new WP_Query( array( 'posts_per_page' => 10,  'category_name' => 'bongs,Feminizadas,automaticas')); 
 
             // The Loop
             if ( $the_query->have_posts() ) : ?>
                 
                 <?php while ( $the_query->have_posts() ) :
                     $the_query->the_post(); ?>
-                    <div class="card-body entradas col-lg-4">
+                    <div class="card card-body entradas col-lg-4">
                         <?php the_category() ?>
                         <a href="<?php the_permalink() ?>">
                             <?php if ( has_post_thumbnail() ) 
