@@ -1,25 +1,21 @@
 body{
 
-    background-color: #7FFFD4;
+    background-color: #3f3250 ;
 }
 
 .navbar{
 
-    background-color: #FF7F50;
-border-radius: 15px 15px 15px 15px;
+    background-color: #6e3667;
+
     
 }
 
 .logo{
     
     width: 200px;
+    
+ 
 }
-
-
-
-
-
-} 
 
 .row{
     margin-left: 0;
@@ -33,17 +29,12 @@ border-radius: 15px 15px 15px 15px;
 .jumbotron{
     background-color: yellowgreen;
 }
-.destacado{
-    margin-top: 40px;
-   
-    font-family: 'Courier New', Courier, monospace;
-    color: red;
-}
 
 .card-body{
     
     
-    background-color: #AFEEEE;
+    background-color: #93c178;
+    border: solid 2px #6e3667; 
   
     
     
@@ -73,12 +64,21 @@ border-radius: 15px 15px 15px 15px;
 }
 .menu-item{
    
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-family: 'Lobster Two', cursive;
 
 }
 .navbar-dark .navbar-nav .nav-link {
-    color:orange;
+    color:#88d317;
+}
+
+.titulo{
+    margin-left:8.5%;
+    background-color: #3f3250 ;
+    border-radius: 25px 25px 25px 25px;
+    color: orange;
+    font-family: 'Bungee Inline', cursive;
+    text-align: right;
 }
 
 .navbar-toggler {

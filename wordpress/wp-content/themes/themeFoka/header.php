@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>foca growshop</title>
     <?php wp_head(); ?>
   </head>
 
   <body <?php body_class(); ?>>
+  
   <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" >
         <section class="container">
@@ -15,7 +15,7 @@
               <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="logo" >
             </a>
 
-            <h1 style="margin-left: 15%;">foca growshop </h1>
+            <h1  class="titulo">foca growshop </h1>
             
             <button 
                 class="navbar-toggler " 
@@ -31,6 +31,7 @@
             </button>
          
           <?php
+          
             wp_nav_menu( array(
               'theme_location'    => 'menu-principal',
               'depth'             => 5,
