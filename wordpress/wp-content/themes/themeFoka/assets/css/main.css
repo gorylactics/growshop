@@ -7,7 +7,6 @@ body{
 
     background-color: #6e3667;
 
-    
 }
 
 .logo{
@@ -78,7 +77,8 @@ body{
     border-radius: 25px 25px 25px 25px;
     color: orange;
     font-family: 'Bungee Inline', cursive;
-    text-align: right;
+    text-align: center;
+    
 }
 
 .navbar-toggler {
@@ -102,3 +102,19 @@ body{
     margin-top: 40px;
     
 }
+
+@media (max-width: 700px) { 
+    .logo{
+        width: 250px;
+        margin-left: 40%;
+        
+    }
+
+    .navbar-toggler{
+        margin-top: -7px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        
+        
+    }
+ }
