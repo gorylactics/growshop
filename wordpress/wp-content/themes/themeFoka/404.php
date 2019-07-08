@@ -1,3 +1,5 @@
 <?php get_header() ?>
-    <h1>no esta la shiet</h1>
+<a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
+              <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="logo" >
+            </a>
 <?php get_footer() ?>

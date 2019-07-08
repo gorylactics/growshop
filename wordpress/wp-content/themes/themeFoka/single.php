@@ -1,16 +1,18 @@
 <?php get_header() ?>
 
 <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
              
-                <div class="card-body mb-auto">
+                <div class="card-body mb-auto elpost">
+                    
+                    <?php if ( has_post_thumbnail() ) {
+                    the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3 single'));
+                    }?>
                     <h2>
                         <?php the_title() ?>
                     </h2>
-                    <?php if ( has_post_thumbnail() ) {
-                    the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3'));
-                    }?>
                 <p>
                     <?php the_content() ?>
                 </p>
@@ -30,6 +32,7 @@
             </div>
        <?php endwhile; endif; ?>
     </div>
+    <div class="col-lg-1"></div>
 </div>
 
 
