@@ -157,14 +157,25 @@ body{
 }
 
  ul.dropdown-menu.show{
-     background-color: #6e3667;
+     background-color: #3f3250;
+     border-radius: 25px 25px 25px 25px ;
  }
 
+ a.dropdown-item{
+     color: #3cc47c;
+ }
+
+
+ p{
+    font-family: 'Pompiere', cursive;
+    font-size: 25px;
+ }
 
  /* footer */
 
  .footer{
      margin-top: 35px;
+     width: 100%;
  }
 
 

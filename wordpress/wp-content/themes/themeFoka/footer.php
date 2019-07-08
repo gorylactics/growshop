@@ -1,7 +1,11 @@
  <!-- footer -->
  <footer class="container_fluid py-4 text-center text-light bg-dark footer">
-        <h5><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque quasi eaque esse reiciendis odit voluptatibus itaque quos illo qui libero nobis, iste vitae veritatis dolorem soluta, magnam mollitia impedit. Enim!</div></h5>
-    </footer>
+ <div class="row">   
+ <div class="col-lg-4"><p> Contactanos </p></div>
+    <div class="col-lg-4"><p>www.focagrow.cl</p></div>
+    <div class="col-lg-4"><p>Siguenos</p></div>
+    </div>
+</footer>
     <!-- footer -->
 
     <!-- Optional JavaScript -->

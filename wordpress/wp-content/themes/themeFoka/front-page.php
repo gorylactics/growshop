@@ -55,7 +55,8 @@
                             ?>  
                            
                         </a>
-                        <?php the_excerpt() ?>
+                        <p class="extracto">
+                        <?php the_excerpt() ?></p>
                         <hr>
                     </div>
                 <?php endwhile ?>
