@@ -88,24 +88,24 @@ body{
 
 .navbar-toggler-icon {
     
-    color: orange
+    color: orange;
 }
 
 
 /* aside */
 
 .sidebar{
-    margin-top: 40px;
+    margin-top: 9px;
     
 }
 .destacado{
     position: absolute;
-    
-    color: #88d317;
+    margin:  10px;
+    color: orange;
     font-size: 25px;
     font-family: 'Lobster Two', cursive;
     border-radius: 25px 25px 25px 25px;
-    background-color: red;
+    background-color: #6e3667;
     display: inline-block;
 
     z-index: 9;
