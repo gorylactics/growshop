@@ -113,7 +113,63 @@ body{
     z-index: 9;
 }
 
-@media (max-width: 700px) { 
+.destacado_secundario{
+    position: absolute;
+    margin:  -10px;
+    color: orange;
+    font-size: 18px;
+    font-family: 'Bungee Inline', cursive;
+    border-radius: 20px 20px 20px 20px;
+    padding: 8px;
+    border: solid 2px white; 
+    background-color: #6e3667;
+    display: inline-block;
+
+    z-index: 9;
+}
+
+
+
+ .elpost{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 25px 25px 25px 25px ;
+  
+ }
+
+ img.img-fluid.mb-3.single.wp-post-image{
+     margin-top: 15px;
+     border-radius: 25px 25px 25px 25px ;
+     display: block;
+     border: solid white 5px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+ img.img-fluid.mb-3.wp-post-image{
+    margin-top: 15px;
+    
+    display: block;
+    
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ ul.dropdown-menu.show{
+     background-color: #6e3667;
+ }
+
+
+ /* footer */
+
+ .footer{
+     margin-top: 35px;
+ }
+
+
+ /* logo cell */
+ @media (max-width: 700px) { 
     .logo{
         width: 250px;
         margin-left: 40%;
@@ -127,26 +183,4 @@ body{
         
         
     }
- }
-
- .elpost{
-    margin-top: 35px;
-    margin-bottom: 35px;
-    border-radius: 25px 25px 25px 25px ;
-  
- }
-
- img.img-fluid.mb-3.single.wp-post-image{
-     margin-top: 15px;
-     border-radius: 25px 25px 25px 25px ;
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
-
-
- /* footer */
-
- .footer{
-     margin-top: 35px;
  }

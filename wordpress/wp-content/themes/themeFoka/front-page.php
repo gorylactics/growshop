@@ -46,7 +46,7 @@
                 <?php while ( $the_query->have_posts() ) :
                     $the_query->the_post(); ?>
                     <div class="card card-body entradas col-lg-4">
-                    <p class="destacado">Destacado <br> <?php the_title() ?>
+                    <p class="destacado_secundario">⭐️<?php the_title() ?>
                         </p>
                         <a href="<?php the_permalink() ?>">
                             <?php if ( has_post_thumbnail() ) 
