@@ -15,7 +15,7 @@
               <img src="<?php bloginfo('template_url')?>/assets/images/foca_sin_fondo.png" alt="logo" class="logo" >
             </a>
 
-            <h1  class="titulo">foca growshop </h1>
+            <h2  class="titulo">foca growshop </h2>
             
             <button 
                 class="navbar-toggler " 

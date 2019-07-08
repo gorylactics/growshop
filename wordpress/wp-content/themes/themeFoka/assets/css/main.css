@@ -13,30 +13,25 @@ body{
     
     width: 200px;
     
- 
 }
 
 .row{
+
     margin-left: 0;
     margin-right: 0;
     padding: 0;
     margin: 10px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
     
 }
-.jumbotron{
-    background-color: yellowgreen;
-}
+
 
 .card-body{
     
-    
     background-color: #93c178;
     border: solid 2px #6e3667; 
-  
-    
-    
+    z-index: 1;
+ 
 }
 
 .col-lg-9{
@@ -78,6 +73,7 @@ body{
     color: orange;
     font-family: 'Bungee Inline', cursive;
     text-align: center;
+    font-size: 40px;
     
 }
 
@@ -101,6 +97,18 @@ body{
 .sidebar{
     margin-top: 40px;
     
+}
+.destacado{
+    position: absolute;
+    
+    color: #88d317;
+    font-size: 25px;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 25px 25px 25px 25px;
+    background-color: red;
+    display: inline-block;
+
+    z-index: 9;
 }
 
 @media (max-width: 700px) { 
