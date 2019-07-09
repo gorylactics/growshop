@@ -208,7 +208,7 @@ display: inline-flex;
         padding-top: 8px;
         padding-bottom: 8px;
         }  
-/*         
+        
     }
     .logo{
         width: 120px;
@@ -225,7 +225,7 @@ display: inline-flex;
         text-align: center;
         font-size: 28px;
         
-    } */
+    }
 
      /* footer */
      .padre{
@@ -236,7 +236,7 @@ display: inline-flex;
         
             }
          .footer{
-             margin-top: 5px;
+             margin-top: 25px;
          
              
              

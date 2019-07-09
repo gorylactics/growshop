@@ -57,7 +57,7 @@
                         </a>
                         <p class="extracto">
                         <?php the_excerpt() ?></p>
-                        <hr>
+                       
                     </div>
                 <?php endwhile ?>
                 <?php wp_reset_postdata();
