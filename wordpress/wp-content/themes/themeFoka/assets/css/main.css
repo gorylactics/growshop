@@ -15,12 +15,12 @@ body{
     
 }
 
+
 .row{
 
-    margin-left: 0;
-    margin-right: 0;
+   
     padding: 0;
-    margin: 10px;
+    
     box-sizing: border-box;  
     
 }
@@ -29,7 +29,7 @@ body{
 .card-body{
     
     background-color: #4abdac;
-    border: solid 2px #6e3667; 
+    border: solid 4px #6e3667; 
     z-index: 1;
  
 }
@@ -57,16 +57,18 @@ body{
     
 }
 .menu-item{
-  margin-top: 18px; 
+    margin-top: 18px; 
     font-size: 27px;
     font-family: 'Lobster Two', cursive;
 
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color:#3cc47c;
 }
 
 .titulo{
+    
     margin-left:8.5%;
     background-color: #3f3250 ;
     border-radius: 25px 25px 25px 25px;
@@ -78,18 +80,14 @@ body{
 }
 
 .navbar-toggler {
+    
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    
     border: 1px solid transparent;
     border-radius: .25rem;
 }
 
-.navbar-toggler-icon {
-    
-    color: orange;
-}
 
 
 /* aside */
@@ -124,13 +122,13 @@ body{
     border: solid 2px white; 
     background-color: #6e3667;
     display: inline-block;
-
     z-index: 9;
 }
 
 
 
  .elpost{
+     
     margin-top: 35px;
     margin-bottom: 35px;
     border-radius: 25px 25px 25px 25px ;
@@ -142,18 +140,16 @@ body{
      border-radius: 25px 25px 25px 25px ;
      display: block;
      border: solid white 5px;
-    margin-left: auto;
-    margin-right: auto;
+     margin-left: auto;
+     margin-right: auto;
  }
 
 
  img.img-fluid.mb-3.wp-post-image{
     margin-top: 15px;
-    
     display: block;
-    
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
  ul.dropdown-menu.show{
@@ -169,14 +165,34 @@ body{
  p{
     font-family: 'Pompiere', cursive;
     font-size: 25px;
+
  }
 
  /* footer */
+    .padre{
 
+display: inline-flex;
+
+    }
  .footer{
      margin-top: 35px;
-     width: 100%;
+     
+     
  }
+
+ .bg-none{
+    background-color: #231e20;
+    
+ }
+
+
+.rrss{
+    
+    width: 50px;
+    float: left;
+   
+}
+
 
 
  /* logo cell */
@@ -191,7 +207,56 @@ body{
         margin-top: -7px;
         padding-top: 8px;
         padding-bottom: 8px;
-        
+        }  
+/*         
+    }
+    .logo{
+        width: 120px;
+     margin-left: 107px;
         
     }
+    .titulo{
+    
+        margin-left:8.5%;
+        background-color: #3f3250 ;
+        border-radius: 25px 25px 25px 25px;
+        color: #f7b733;
+        font-family: 'Bungee Inline', cursive;
+        text-align: center;
+        font-size: 28px;
+        
+    } */
+
+     /* footer */
+     .padre{
+
+        display: inline-flex;
+        
+            }
+         .footer{
+             margin-top: 35px;
+         
+             
+             
+         }
+        
+         .bg-none{
+            background-color: #231e20;
+            
+         }
+        
+        
+        .rrss{
+         
+            width: 50px;
+
+            margin-left: auto;
+            margin-right: auto;
+            
+           
+        }
+        p{
+            display: none;
+        }
+        
  }
