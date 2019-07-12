@@ -1,12 +1,12 @@
 <?php get_header() ?>
-<h1 class="bg-dark btn btn-block"><?php the_category('/'); ?></h1>
+<h1 class="bg-dark btn btn-block tituloSeccion"><?php the_category('/'); ?></h1>
 
 <div class="row">
     <div class="col-lg-9">
 <!-- entradas -->
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <div class="card-body entradas col-lg-4">
-                <a href="<?php the_permalink() ?>">
+                <a  href="<?php the_permalink() ?>">
                     <h2>
                         <?php the_title()?>
                     </h2>

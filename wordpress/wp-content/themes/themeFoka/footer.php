@@ -7,8 +7,7 @@
         <img src="<?php bloginfo('template_url')?>/assets/images/whatsapp-brands.svg" alt="rrss" class="rrss" >
       </a>
     <hr>
-    <br>
-    <p> Contactanos </p>
+   <h6> Contactanos </h6>
   </div>
 
     <div class="col-lg-4 rrss">
@@ -16,8 +15,7 @@
         <img src="<?php bloginfo('template_url')?>/assets/images/globe-americas-solid.svg" alt="rrss" class="rrss" >
       </a>
     <hr>
-    <br>
-      <p> www.focagrow.cl </p>
+     <h6> www.focagrow.cl </h6>
     </div>
 
     <div class="col-lg-4 rrss">
@@ -25,8 +23,7 @@
         <img src="<?php bloginfo('template_url')?>/assets/images/instagram-brands.svg" alt="rrss" class="rrss" >
       </a>
     <hr>
-    <br>
-    <p> Siguenos </p>
+   <h6> Siguenos </h6>
   </div>
   </div>
   </div>

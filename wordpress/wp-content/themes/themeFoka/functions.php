@@ -17,6 +17,8 @@
         wp_enqueue_style( 'fonts' );
         
         wp_enqueue_script('bootstrap_js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array('jquery'),'4.2', true);
+        wp_enqueue_script('app_js', get_template_directory_uri(). '/assets/js/app.js', array('bootstrap_js'), 1.0, true);
+
         
     };
     add_action('wp_enqueue_scripts', 'themeFoka_agregar_css_js');

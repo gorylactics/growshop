@@ -18,9 +18,7 @@ body{
 
 .row{
 
-   
     padding: 0;
-    
     box-sizing: border-box;  
     
 }
@@ -40,6 +38,7 @@ body{
     margin-right: 0;
     padding: 0;
     position: relative;
+
 }
 
 .col-lg-3{
@@ -49,6 +48,7 @@ body{
     padding: 0;
     position: relative;
     box-sizing: border-box;
+
 }
 
 .entradas{
@@ -56,7 +56,9 @@ body{
     float: left;
     
 }
+
 .menu-item{
+    
     margin-top: 18px; 
     font-size: 27px;
     font-family: 'Lobster Two', cursive;
@@ -64,6 +66,7 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link {
+   
     color:#3cc47c;
 }
 
@@ -86,6 +89,7 @@ body{
     line-height: 1;
     border: 1px solid transparent;
     border-radius: .25rem;
+
 }
 
 
@@ -93,10 +97,13 @@ body{
 /* aside */
 
 .sidebar{
+   
     margin-top: 9px;
     
 }
+
 .destacado{
+    
     position: absolute;
     margin:  10px;
     color: orange;
@@ -107,11 +114,12 @@ body{
     border: solid 2px white; 
     background-color: #6e3667;
     display: inline-block;
-
     z-index: 9;
+
 }
 
 .destacado_secundario{
+    
     position: absolute;
     margin:  -10px;
     color: orange;
@@ -123,20 +131,20 @@ body{
     background-color: #6e3667;
     display: inline-block;
     z-index: 9;
+
 }
-
-
-
- .elpost{
+ 
+.elpost{
      
     margin-top: 35px;
     margin-bottom: 35px;
     border-radius: 25px 25px 25px 25px ;
   
- }
+}
 
- img.img-fluid.mb-3.single.wp-post-image{
-     margin-top: 15px;
+img.img-fluid.mb-3.single.wp-post-image{
+     
+    margin-top: 15px;
      border-radius: 25px 25px 25px 25px ;
      display: block;
      border: solid white 5px;
@@ -146,6 +154,7 @@ body{
 
 
  img.img-fluid.mb-3.wp-post-image{
+    
     margin-top: 15px;
     display: block;
     margin-left: auto;
@@ -153,38 +162,42 @@ body{
 }
 
  ul.dropdown-menu.show{
-     background-color: #3f3250;
-     border-radius: 25px 25px 25px 25px ;
- }
+     
+    background-color: #3f3250;
+    border-radius: 25px 25px 25px 25px ;
+ 
+}
 
  a.dropdown-item{
-     color: #3cc47c;
+    
+    color: #3cc47c;
  }
 
 
- p{
+p{
     font-family: 'Pompiere', cursive;
     font-size: 25px;
 
- }
+}
 
  /* footer */
-    .padre{
+.padre{
 
 display: inline-flex;
 
-    }
- .footer{
-     margin-top: 35px;
-     
-     
- }
+}
 
- .bg-none{
+.footer{
+    
+    margin-top: 35px;  
+     
+}
+
+.bg-none{
+    
     background-color: #231e20;
     
- }
-
+}
 
 .rrss{
     
@@ -193,11 +206,51 @@ display: inline-flex;
    
 }
 
+.sidebar div.card-body h4{
+    
+    background-color: #3f3250 ;
+    border-radius: 25px 25px 25px 25px;
+    color:#3cc47c;
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    font-size: 28px;
+    
+ }
+
+label.screen-reader-text{
+    display: none;
+}
+
+input.btn.btn-primary.btn-block{
+    background-color: #f7b733 ;
+    border: solid 2px #3f3250 ;
+}
+
+.tituloSeccion{
+    
+    color: orange;
+    font-size: 33px;
+    font-family: 'Bungee Inline', cursive;
+ 
+    
+}
+.elpost h2{
+    color: #3f3250 ;
+    display: inline;
+    text-align:center;
+    font-family: 'Lobster Two', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
- /* logo cell */
+
+
+ /* cell */
  @media (max-width: 700px) { 
+    
     .logo{
+        
         width: 250px;
         margin-left: 40%;
         
@@ -207,14 +260,16 @@ display: inline-flex;
         margin-top: -7px;
         padding-top: 8px;
         padding-bottom: 8px;
-        }  
+    }  
         
-    }
+    
     .logo{
+        
         width: 120px;
-     margin-left: 107px;
+        margin-left: 107px;
         
     }
+    
     .titulo{
     
         margin-left:8.5%;
@@ -229,37 +284,42 @@ display: inline-flex;
 
      /* footer */
      .padre{
-         margin-bottom: 26px;
-         margin-top: -20px;
+        
+        margin-bottom: 26px;
+        margin-top: -20px;
         height: 80px;
         display: inline-flex;
         
-            }
-         .footer{
-             margin-top: 25px;
-         
-             
-             
-         }
+    }
+    
+    .footer{
+        margin-top: 25px;
         
-         .bg-none{
-            background-color: #231e20;
+    }
+        
+    .bg-none{
             
-         }
+        background-color: #231e20;
+            
+    }
         
-        
-        .rrss{
+    .rrss{
          
-            width: 50px;
-            margin-top:20px;
-            margin-bottom: -40px;
-            margin-left: auto;
-            margin-right: auto;
+        width: 50px;
+        margin-top:20px;
+        margin-bottom: -40px;
+        margin-left: auto;
+        margin-right: auto;
             
            
-        }
-        p{
+    }
+        
+    h6{
             display: none;
         }
         
- }
+ }   
+ /* fin cell */
+
+
+ 

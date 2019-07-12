@@ -17,6 +17,7 @@
                         <p class="destacado">Destacado <?php the_title() ?>
                         </p>
                     </h1>
+                    
 
                     <div class=" card card-body entradas col-lg-12">
                         <a href="<?php the_permalink() ?>">
@@ -38,7 +39,7 @@
 
                 <?php 
             // The Query
-            $the_query = new WP_Query( array( 'posts_per_page' => 9,  'category_name' => 'bongs,Feminizadas,automaticas')); 
+            $the_query = new WP_Query( array( 'posts_per_page' => 9,  'category_name' => 'destacadosecundario')); 
 
             // The Loop
             if ( $the_query->have_posts() ) : ?>
@@ -57,6 +58,7 @@
                         </a>
                         <p class="extracto">
                         <?php the_excerpt() ?></p>
+                        <p><?php the_tags('Precio '); ?></p>
                        
                     </div>
                 <?php endwhile ?>
