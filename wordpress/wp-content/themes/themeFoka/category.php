@@ -11,10 +11,11 @@
                         <?php the_title()?>
                     </h2>
                 </a>
-                <h6><p class="small mb-0">fecha: <?php the_time('F j, Y'); ?></p>
+                <p><?php the_tags('Precio '); ?></p>
+                <!-- <h6><p class="small mb-0">fecha: <?php the_time('F j, Y'); ?></p>
                 <p class="small mb-0">autor: <?php the_author(); ?></p>
                 <p class="small mb-0">etiquetas: <?php the_tags('', '/', ''); ?>
-                <p class="small mb-0">categoria: <?php the_category('/'); ?> </h6>
+                <p class="small mb-0">categoria: <?php the_category('/'); ?> </h6> -->
         
         <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3'));}?>

@@ -244,8 +244,37 @@ input.btn.btn-primary.btn-block{
 }
 
 
+a.btn.btn-primary.btn-block{
+    background-color: orange;
+    border: solid 2px purple;
+}
 
+h2{
+    
+    position: absolute;
+    margin:  -10px;
+    color: orange;
+    font-size: 18px;
+    font-family: 'Bungee Inline', cursive;
+    border-radius: 20px 20px 20px 20px;
+    padding: 8px;
+    border: solid 2px white; 
+    background-color: #6e3667;
+    display: inline-block;
+    z-index: 9;
+}
 
+h3{
+    color: orange;
+    font-size: 28px;
+    font-family: 'Bungee Inline', cursive;
+    border-radius: 20px 20px 20px 20px;
+    padding: 8px;
+    border: solid 2px white; 
+    background-color: #6e3667;
+    display: inline-block;
+    
+}
  /* cell */
  @media (max-width: 700px) { 
     

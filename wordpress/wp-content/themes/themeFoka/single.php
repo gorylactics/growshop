@@ -10,17 +10,17 @@
                     <?php if ( has_post_thumbnail() ) {
                     the_post_thumbnail('post-thumbnails' , array('class' => 'img-fluid mb-3 single'));
                     }?>
-                    <h2>
+                    <h3>
                         <?php the_title() ?>
-                    </h2>
+                    </h3>
                 <p>
                     <?php the_content() ?>
                 </p>
                 <p><?php the_tags('Precio '); ?></p>
-                    <p class=" mb-0">fecha: <?php the_time('F j, Y'); ?></p>
+                    <!-- <p class=" mb-0">fecha: <?php the_time('F j, Y'); ?></p>
                     <p class=" mb-0">autor: <?php the_author()?></p>
                     <p class=" mb-0">categoria: <?php the_category('/'); ?>    
-                    <hr>
+                    <hr> -->
 
 
                     <a href="javascript:history.back()"> 
